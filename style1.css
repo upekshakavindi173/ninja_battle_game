@@ -1,0 +1,59 @@
+.background {
+    background-image: url(thamb.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+.play {
+    background-color: rgba(240, 24, 24, 0.349);
+    width: 120px;
+    height: 80px;
+    color: rgb(250, 244, 244);
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 450px;
+    margin-left: 610px;
+}
+
+.play:hover {
+    background-color: rgba(167, 41, 41, 0.623);
+}
+
+.Menu {
+    background-color: rgba(240, 24, 24, 0.267);
+    width: 120px;
+    height: 80px;
+    color: rgb(250, 244, 244);
+    font-size: 70px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 10px;
+    margin-left: 610px;
+}
+
+.Menu:hover {
+    background-color: rgba(196, 51, 51, 0.527);
+}
+
+.menu1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.menuImage {
+    width: 40%;
+    animation: zoomIn 0.5s ease;
+}

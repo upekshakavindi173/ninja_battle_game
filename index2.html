@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Kunai Battle</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+
+<body class="background" onkeyup="Start(event);">
+
+
+    <div>
+
+        <img src="./idle0.png" class="ninja" id="ninja" />
+
+        <img src="./gidle0.png" class="golem" id="golem" />
+
+    </div>
+
+    <button class="start" id="start" onmouseover="changeText();" onmouseout="resetText();">Start</button>
+
+    <button class="pause" id="pause" onclick="pause();">Stop</button>
+
+    <div style="color: blanchedalmond; margin-left: 1200px; margin-top: 60px; font-size: 30px; position: absolute;"
+        id="score">Score:0</div>
+
+    <div style="color: blanchedalmond; margin-left: 1200px; margin-top: 30px; font-size: 30px; position: absolute;"
+        id="time">Time:45</div>
+
+    <div class="restart" id="restart" onclick="restart();">Restart</div>
+
+
+
+    <a href="index.html" target="_self">
+
+        <div id="win" class="win">
+
+            <img src="./win.jpg" class="win-image" alt="You Win" />
+
+        </div>
+
+    </a>
+
+
+
+
+
+
+    <a href="index.html" target="_self">
+
+        <div id="defeat" class="defeat">
+
+            <img src="./def.webp" class="def-image" alt="You defeat" />
+
+        </div>
+
+    </a>
+
+
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
